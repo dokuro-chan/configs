@@ -1,0 +1,88 @@
+html, body {
+   background-color: #F7F7F7;
+   color: #B8D085;
+	font-size: 9px;
+   
+}
+a {
+   color: #B8D085;
+	text-decoration: none;
+}
+body {	
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+    font-family: calbri;
+    text-align: center;
+    border: 0;
+}
+main {
+	padding-top: 5%;
+   display: block;    
+   font-size: 16px;
+   background-size: contain;
+   background-repeat: no-repeat;
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	-webkit-box-orient: block-axis;
+	-webkit-box-direction: normal;
+	-moz-box-orient: blox-axis;
+	-moz-box-direction: normal;
+   -ms-flex-direction: column;
+	-webkit-flex-direction: column;
+   display: flex;
+   flex-flow: column;
+}
+ul {
+   margin: 0 auto;
+   text-align: center;
+   list-style-type: none;
+}
+.block ul {
+   text-align: left;
+	padding: 10px;
+}
+.block ul:hover {
+   color: #EF896F;
+}
+a:hover {
+   color: #EF896F;
+}
+.block li:first-child {
+   text-transform: uppercase;
+   font-weight: bold;
+	font-size: 1.5em;
+}
+.block {
+    display: inherit;
+	-webkit-box-orient: inline-axis;
+	-webkit-box-direction: normal;
+	-moz-box-orient: inline-axis;
+	-moz-box-direction: normal;
+	-ms-flex-direction: row;
+	-webkit-flex-direction: row;
+	-webkit-box-lines: multiple;
+	-moz-box-lines: multiple;
+	-ms-flex-wrap: wrap;
+	-webkit-flex-wrap: wrap;
+   flex-flow: row wrap;  
+   margin: 120px auto;
+	width: 100%;
+	max-width:700px;
+}
+#dusty {
+	width:166.5px;
+	height:122px;	
+}
+
+@media (max-width: 600px) {
+   #dusty {
+      display: none;
+   }
+   #oneout {
+	   display: none;
+   }
+}
