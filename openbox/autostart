@@ -1,0 +1,2 @@
+xset -dpms s off
+compton --config ~/.compton.conf
