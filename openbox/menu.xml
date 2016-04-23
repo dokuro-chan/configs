@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<openbox_menu xmlns="http://openbox.org/"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://openbox.org/
+                file:///usr/share/openbox/menu.xsd">
+
+<menu id="root-menu" label="Openbox 3">
+  <item label="firefox">
+    <action name="Execute"><execute>firefox</execute></action>
+  </item>
+  <item label="terminal">
+    <action name="Execute"><execute>urxvt</execute></action>
+  </item>
+  <item label="pidgin">
+    <action name="Execute"><execute>pidgin</execute></action>
+  </item>
+  <item label="files">
+    <action name="Execute"><execute>pcmanfm</execute></action>
+  </item>
+  
+  <separator />
+  
+  <menu id="misc" label="misc">
+    <menu id="re" label="reversing"></menu>
+    <menu id="co" label="programming"></menu>
+    <menu id="ha" label="exploitation"></menu>
+    <menu id="ec" label="cryptography"></menu>
+  </menu>
+  
+  <menu id="openbox" label="openbox">
+    <menu label="desktops" id="client-list-menu" />
+    <item label="obconf">
+      <action name="Execute"><execute>obconf</execute></action>
+    </item>
+    <item label="gtk themes">
+      <action name="Execute"><execute>gtk-chtheme</execute></action>
+    </item>
+    <item label="reconfigure">
+      <action name="Reconfigure" />
+    </item>
+    <item label="restart">
+      <action name="Restart" />
+    </item>
+  </menu>
+  
+  <separator />
+  
+  <item label="exit">
+    <action name="exit" />
+  </item>
+</menu>
+</openbox_menu>
